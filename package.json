@@ -1,0 +1,14 @@
+{
+  "name": "acordeonix-whatsapp-bot",
+  "type": "module",
+  "version": "1.2.0",
+  "scripts": {
+    "start": "node server.js",
+    "aprender": "node extraer_conocimiento.js",
+    "subir": "node subir_conocimiento.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "firebase-admin": "^13.0.0"
+  }
+}
